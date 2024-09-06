@@ -1,6 +1,6 @@
 const submitFunction = (event) => {
     event.preventDefault(); // NO permite que se actulice la WEB
-    validarFormulario();
+    const valido = validarFormulario();
 };
 
 document.getElementById('formRegistro').addEventListener('submit', submitFunction);
